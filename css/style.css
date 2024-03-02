@@ -1,0 +1,18 @@
+.indented-paragraph {
+  margin-left: 20px;
+}
+
+.notebook-container {
+  background: url('img/list-bg.png') center/cover no-repeat;
+  padding: 20px;
+}
+
+.notebook-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.notebook-container li {
+  margin: 10px 0;
+}
