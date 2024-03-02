@@ -1,18 +1,63 @@
-.indented-paragraph {
-  margin-left: 20px;
+.socials {
+  float: right;
+}
+
+.paragraph-container {
+  padding-left: 20px;
+}
+
+.paragraph-container p {
+  text-indent: -20px;
+}
+
+.paragraph-container p:first-line {
+  text-indent: 0px;
+}
+
+.share-button {
+  background-color: rgb(163, 81, 71);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 50;
 }
 
 .notebook-container {
-  background: url('img/list-bg.png') center/cover no-repeat;
+  position: relative;
+  color: black;
   padding: 20px;
+}
+
+.notebook-container img {
+  width: 100%;
+  border-radius: 5px;
 }
 
 .notebook-container ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: ;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .notebook-container li {
   margin: 10px 0;
+}
+
+.footer {
+  text-align: center;
+  color: grey;
+  font-size: 12px;
+}
+
+.footer p {
+  margin: 5px 0;
 }
